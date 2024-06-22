@@ -1,3 +1,3 @@
 # odin-landing-page
 
-Im Building a website landing page using html and css with flexbox.
+Im building a website landing page using html and css with flexbox.
