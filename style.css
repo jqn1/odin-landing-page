@@ -6,14 +6,15 @@ body {
 }
 
 .hero-section,
-.header {
+.header,
+.footer {
   background-color: #1F2937;
 }
 
 .header {
   display: flex;
   color: #FAF9F8;
-  padding: 20px 400px 50px;
+  padding: 20px 400px 90px;
   align-items: baseline;
 }
 
@@ -78,6 +79,11 @@ a {
   border: none;
   border-radius: 8px;
 }
+.hero-text .sign-up:hover {
+      background-color: #0046e8;
+      transition: 0.7s;
+  }
+
 
 .sign-up {
   padding: 9px 30px;
@@ -89,6 +95,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 90px;
 
 }
 
@@ -119,3 +126,78 @@ a {
   text-align: center;
   font-weight: 350;
 }
+
+.quote-section {
+  display:flex;
+  flex-direction: column;
+  text-align:center;
+  align-items:center;
+  background-color: #E5E7EB;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+  color: #1f2937;
+  gap: 15px;
+  padding-top: 100px ;
+  padding-bottom: 100px;
+}
+
+.quote-author {
+  font-style: normal;
+  text-align: end;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 30px;
+  max-width:800px;
+}
+
+
+.sign-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+
+.sign-box {
+  background-color: #3882f6;
+  padding: 50px 80px;
+  border-radius: 12px;
+  font-size: 24px;
+  color: #F9FAF8;
+  gap: 150px;
+  display:flex;
+
+}
+
+.sign-subtext {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.sign-box .sign-up {
+  background-color: #3882F6;
+  color: white;
+  border: 2px solid #F9FAF8;
+  border-radius: 8px;
+  align-self: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding: 30px 0px;
+  color: #F9FAF8;
+  font-weight: 300;
+}
+
+.sign-box .sign-up:hover {
+      background-color: #1765e3;
+      transition: 0.7s;
+  }
