@@ -14,8 +14,13 @@ body {
 .header {
   display: flex;
   color: #FAF9F8;
-  padding: 20px 400px 90px;
+  padding: 20px 20px 90px;
+  justify-content: center;
+}
+.header-box {
+  display:flex;
   align-items: baseline;
+  width: 1120px;
 }
 
 .header-title {
@@ -46,12 +51,16 @@ a {
 }
 
 .hero-section {
-  padding: 20px 400px 130px;
+  padding: 20px 20px 130px;
+  display: flex;
+  justify-content: center;
+
 }
 
 .hero-content {
   display: flex;
   gap: 40px;
+  width: 1120px;
 }
 .hero-text {
   font-size: 48px;
@@ -101,7 +110,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 90px;
+  padding:0px 20px 90px;
 
 }
 
@@ -109,12 +118,14 @@ a {
   font-size: 36px;
   color: #1F2937;
   padding: 50px 0px;
+  text-align: center;
 }
 
 .information-boxes {
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
+  justify-content: center;
 
 }
 
@@ -144,8 +155,7 @@ a {
   font-size: 36px;
   color: #1f2937;
   gap: 15px;
-  padding-top: 100px ;
-  padding-bottom: 100px;
+  padding: 100px 20px;
 }
 
 .quote-author {
@@ -162,8 +172,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 20px;
   
 }
 
@@ -207,3 +216,6 @@ a {
       background-color: #1765e3;
       transition: 0.7s;
   }
+
+
+
