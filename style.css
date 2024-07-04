@@ -25,6 +25,7 @@ body {
 
 .header-title {
   font-size: 24px;
+  font-weight: 900;
 }
 
 .header ul{
@@ -59,6 +60,7 @@ a {
 
 .hero-content {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
   width: 1120px;
 }
